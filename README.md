@@ -12,7 +12,7 @@
 
 # Set Up Flask in Powershell 
 1) Type `$env:FLASK_APP = "hello"`
-2) Then run `flask run` or `python (file).py) either works 
+2) Then run `flask run` or `python (file).py)` either works 
 
 # To Run Development Server 
 1) Run `flask run` 
