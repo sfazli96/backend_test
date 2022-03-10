@@ -31,6 +31,7 @@
 1) Type server port in browser followed by: `/api/prediction`, enter new `post_text` and `sponsored` and it should be in the collection 
 2) Run server port follower by: `/api` to see updated JSON 
 
-Sources and cited: 
+# Sources
+Articles, Sources and cited: 
 https://sonusharma-mnnit.medium.com/building-a-microservice-in-python-ff009da83dac (used some references here as well)
 https://dev.to/swarnimwalavalkar/build-and-deploy-a-rest-api-microservice-with-python-flask-and-docker-5c2d (used references here)
