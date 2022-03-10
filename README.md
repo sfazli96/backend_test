@@ -16,4 +16,17 @@
 
 # To Run Development Server 
 1) Run `flask run` 
-2) Server should run on port `127.0.0.1`
+2) Server should run on port `127.0.0.1:500` or default on PC
+
+# Check for JSON Format Ad, Advertisment and Sponsored table Data
+1) Type server port in browser followed by: `/api`
+
+# To See Sponsored, Advertisement or ad JSON in specific collection with a specific member (GET Request)
+1) Type server port in browser followed by: `/api/sponsored/ex`, ex in the JSON stands for ExpressVPN. This is to see the specific member of what is being sponsored.
+2) For advertisement, type server port in browser follwed by: `/api/advertisement/ty`, ty in the JSON stands for ToysRus. This is to see the specific member of what is being advertised.
+
+# To POST a method to a collection (POST Request)
+1) Type server port in browser followed by: `/api/prediction`, enter new `post_text` and `sponsored` and it should be in the collection 
+2) Run server port follower by: `/api` to see updated JSON 
+
+
